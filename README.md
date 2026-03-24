@@ -107,10 +107,10 @@ A análise identificou padrões relevantes:
 
 ## Insight Principal
 
-> O problema central não está na demanda ou nos clientes, mas em uma **ineficiência estrutural de margem**.
+> O problema central não está na demanda ou nos clientes, mas em uma **ineficiência estrutural de margem**, principalmente causada por exposição ao câmbio.
 
 Principais drivers:
-- Custos elevados e impactados pelo câmbio 
+- Custos elevados e impactados pelo dólar
 - Precificação inadequada  
 - Mix de produtos pouco eficiente  
 
