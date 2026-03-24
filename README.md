@@ -1,6 +1,6 @@
 # LH Nautical — Projeto de Dados e Business Intelligence
 
-Projeto desenvolvido como parte do processo seletivo do programa Lighthouse (Dados e IA), com foco na construção de uma solução completa de dados — desde a ingestão e modelagem até a geração de insights estratégicos.
+Projeto desenvolvido como parte do processo seletivo do programa Lighthouse (Dados e IA), com foco na construção de uma solução completa de dados, desde a ingestão e modelagem até a geração de insights estratégicos.
 
 ---
 
@@ -15,7 +15,7 @@ A empresa enfrenta um cenário de **“caos de dados”**, caracterizado por:
 - Dificuldade em consolidar informações básicas  
 - Tomada de decisão baseada em intuição  
 
-A diretoria busca evoluir para uma operação orientada por dados, com potencial uso de IA — mas atualmente não possui base estruturada para isso.
+A diretoria busca evoluir para uma operação orientada por dados, com potencial uso de IA, mas atualmente não possui base estruturada para isso.
 
 ---
 
@@ -50,7 +50,9 @@ Foi construído um **Data Warehouse** utilizando o modelo Medallion:
 
 - **Bronze** → Ingestão de dados brutos  
 - **Silver** → Limpeza, padronização e validação  
-- **Gold** → Modelo analítico (star schema)  
+- **Gold** → Modelo analítico (star schema)
+
+  ![Arquitetura do Data Warehouse](images/DWHArchitecture.jpg)
 
 ### Ao final do pipeline, temos prontas para consumo as tabelas:
 - Vendas (`fact_sales`)
@@ -59,6 +61,8 @@ Foi construído um **Data Warehouse** utilizando o modelo Medallion:
 - Produtos (`dim_product`)
 - Datas (`dim_date`)
 - Câmbio (`dim_exchange_rate`)
+
+![Arquitetura do Data Warehouse](images/LH_Nautical_Star_Schema.jpg)
 
 ---
 
@@ -115,6 +119,8 @@ Principais drivers:
 ## Dashboard (Power BI)
 
 Foi desenvolvido um dashboard com foco em comunicação clara para stakeholders. O link público para visualizá-lo é: [Dashboard](eyJrIjoiYTRmYzg5MTQtZTNhMi00NTMyLWIxZmItZjRlYzNkMGVhZDY5IiwidCI6ImEzNGM1MTliLTQ0ZDEtNGRlNi1iNTVlLWQ0NmNmZWFhODJhNSJ9)
+
+![Preview do Dashboard](images/Preview_Dashboard.jpg)
 
 
 
