@@ -118,7 +118,7 @@ Principais drivers:
 
 ## Dashboard (Power BI)
 
-Foi desenvolvido um dashboard com foco em comunicação clara para stakeholders. O link público para visualizá-lo é: [Dashboard](eyJrIjoiYTRmYzg5MTQtZTNhMi00NTMyLWIxZmItZjRlYzNkMGVhZDY5IiwidCI6ImEzNGM1MTliLTQ0ZDEtNGRlNi1iNTVlLWQ0NmNmZWFhODJhNSJ9)
+Foi desenvolvido um dashboard com foco em comunicação clara para stakeholders. O link público para visualizá-lo é: [Dashboard](https://app.powerbi.com/groups/me/reports/1526933a-a8ae-4601-ae95-071bd3383a65/4edea3ad941cb5bd4231?experience=power-bi)
 
 ![Preview do Dashboard](images/Preview_Dashboard.jpg)
 
